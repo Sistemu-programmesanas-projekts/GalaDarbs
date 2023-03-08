@@ -1,4 +1,3 @@
 # GalaDarbs
 
-Lidosta
--j
+
