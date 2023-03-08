@@ -3,5 +3,5 @@
 
 C++ Lidosta:
    + arrivals/departures
-   + baggage
+   + plane parking spots
    + clients
