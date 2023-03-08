@@ -1,1 +1,4 @@
 # GalaDarbs
+
+Lidosta
+-j
