@@ -2,6 +2,6 @@
 
 
 C++ Lidosta:
-   arrivals/departures
-   baggage
-   clients
+   + arrivals/departures
+   + baggage
+   + clients
