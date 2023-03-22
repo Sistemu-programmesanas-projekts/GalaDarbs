@@ -7,7 +7,7 @@ using namespace std;
 
 vector<string> viewArrivals() {
   vector<string> arrivals;
-  arrivals = {"from Budapest >> 10:10", "from Berlin >> 12:45","from Moscow >>11:00", "from Amsterdam >>00:00", "from London >> 03:00"};
+  arrivals = {"from Budapest >> 10:10", "from Berlin >> 12:45","from Ankara >> 11:00", "from Amsterdam >> 00:00", "from London >> 03:00", "from Mallorca >> 11:45", "from Belgrade >> 17:05", "from Torino >> 19:55"};
   return arrivals;
 }
 
@@ -34,7 +34,13 @@ map<int, string> viewParkingSpots() {
 
   parkingSpots = {
     {1, "a spot - free"},
-    {2, "b spot - busy"}
+    {2, "b spot - busy"},
+    {3, "c spot - reserved"},
+    {4, "d spot(Large) - reserved"},
+    {5, "e spot(Large) - free"},
+    {6, "f spot - busy"},
+    {7, "g spot - under maintenance"},
+    {8, "h spot - reserved"}
   };
 
   return parkingSpots;
@@ -217,4 +223,3 @@ int main() {
   }
   return 0;
 }
-
